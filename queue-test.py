@@ -3,9 +3,9 @@
 
 import queue
 
-path = "/hoge/hogehoge/hogehogehoge/python/python_training"
-q = queue.Queue()
+path = "/hoge/hogehoge/hogehogehoge/python/"
 huken = ['osaka','tokyo','kanagawa']
+q = queue.Queue()
 
 for i in huken:
     q.put(i)
