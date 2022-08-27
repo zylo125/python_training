@@ -15,6 +15,5 @@ for row in cur.execute('select * from bils'):
     new_filepath = path + '/' + area + '/' + huken
     print(row[0], row[1], row[2])
     print(new_filepath)
-
-conn.commit()
+    
 conn.close()
