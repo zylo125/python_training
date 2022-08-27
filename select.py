@@ -9,8 +9,7 @@ conn.text_factory = str
 cur = conn.cursor()
 path = r'hoge/hogehoge/hogehogehoge/python'
 
-select_sql = 'select * from bils'
-for row in cur.execute(select_sql):
+for row in cur.execute('select * from bils'):
     area = row[0]
     huken = row[1]
     new_filepath = path + '/' + area + '/' + huken
